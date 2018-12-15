@@ -1,0 +1,13 @@
+E:\Уроки\5-семестр\Методы оптимизации\Программы оптимизации\BisectionMethod\BisectionMethod\obj\Debug\BisectionMethod.vbprojResolveAssemblyReference.cache
+E:\Уроки\5-семестр\Методы оптимизации\Программы оптимизации\BisectionMethod\BisectionMethod\obj\Debug\BisectionMethod.BisectionForm.resources
+E:\Уроки\5-семестр\Методы оптимизации\Программы оптимизации\BisectionMethod\BisectionMethod\obj\Debug\BisectionMethod.Resources.resources
+E:\Уроки\5-семестр\Методы оптимизации\Программы оптимизации\BisectionMethod\BisectionMethod\obj\Debug\BisectionMethod.vbproj.GenerateResource.Cache
+E:\Уроки\5-семестр\Методы оптимизации\Программы оптимизации\BisectionMethod\BisectionMethod\obj\Debug\BisectionMethod.vbproj.CoreCompileInputs.cache
+E:\Уроки\5-семестр\Методы оптимизации\Программы оптимизации\BisectionMethod\BisectionMethod\bin\Debug\BisectionMethod.exe.config
+E:\Уроки\5-семестр\Методы оптимизации\Программы оптимизации\BisectionMethod\BisectionMethod\bin\Debug\BisectionMethod.exe
+E:\Уроки\5-семестр\Методы оптимизации\Программы оптимизации\BisectionMethod\BisectionMethod\bin\Debug\BisectionMethod.pdb
+E:\Уроки\5-семестр\Методы оптимизации\Программы оптимизации\BisectionMethod\BisectionMethod\bin\Debug\BisectionMethod.xml
+E:\Уроки\5-семестр\Методы оптимизации\Программы оптимизации\BisectionMethod\BisectionMethod\bin\Debug\info.lundin.math.dll
+E:\Уроки\5-семестр\Методы оптимизации\Программы оптимизации\BisectionMethod\BisectionMethod\obj\Debug\BisectionMethod.exe
+E:\Уроки\5-семестр\Методы оптимизации\Программы оптимизации\BisectionMethod\BisectionMethod\obj\Debug\BisectionMethod.xml
+E:\Уроки\5-семестр\Методы оптимизации\Программы оптимизации\BisectionMethod\BisectionMethod\obj\Debug\BisectionMethod.pdb
