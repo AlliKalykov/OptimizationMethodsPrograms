@@ -1,0 +1,13 @@
+E:\Уроки\5-семестр\Методы оптимизации\OptimizationMethodsPrograms\PSM\PSM\bin\Debug\PSM.exe.config
+E:\Уроки\5-семестр\Методы оптимизации\OptimizationMethodsPrograms\PSM\PSM\bin\Debug\PSM.exe
+E:\Уроки\5-семестр\Методы оптимизации\OptimizationMethodsPrograms\PSM\PSM\bin\Debug\PSM.pdb
+E:\Уроки\5-семестр\Методы оптимизации\OptimizationMethodsPrograms\PSM\PSM\bin\Debug\PSM.xml
+E:\Уроки\5-семестр\Методы оптимизации\OptimizationMethodsPrograms\PSM\PSM\bin\Debug\info.lundin.math.dll
+E:\Уроки\5-семестр\Методы оптимизации\OptimizationMethodsPrograms\PSM\PSM\obj\Debug\PSM.vbprojResolveAssemblyReference.cache
+E:\Уроки\5-семестр\Методы оптимизации\OptimizationMethodsPrograms\PSM\PSM\obj\Debug\PSM.PocketForm.resources
+E:\Уроки\5-семестр\Методы оптимизации\OptimizationMethodsPrograms\PSM\PSM\obj\Debug\PSM.Resources.resources
+E:\Уроки\5-семестр\Методы оптимизации\OptimizationMethodsPrograms\PSM\PSM\obj\Debug\PSM.vbproj.GenerateResource.Cache
+E:\Уроки\5-семестр\Методы оптимизации\OptimizationMethodsPrograms\PSM\PSM\obj\Debug\PSM.vbproj.CoreCompileInputs.cache
+E:\Уроки\5-семестр\Методы оптимизации\OptimizationMethodsPrograms\PSM\PSM\obj\Debug\PSM.exe
+E:\Уроки\5-семестр\Методы оптимизации\OptimizationMethodsPrograms\PSM\PSM\obj\Debug\PSM.xml
+E:\Уроки\5-семестр\Методы оптимизации\OptimizationMethodsPrograms\PSM\PSM\obj\Debug\PSM.pdb
