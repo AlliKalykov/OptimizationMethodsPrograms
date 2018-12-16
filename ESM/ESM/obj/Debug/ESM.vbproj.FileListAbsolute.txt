@@ -1,0 +1,13 @@
+E:\Уроки\5-семестр\Методы оптимизации\OptimizationMethodsPrograms\ESM\ESM\bin\Debug\ESM.exe.config
+E:\Уроки\5-семестр\Методы оптимизации\OptimizationMethodsPrograms\ESM\ESM\bin\Debug\ESM.exe
+E:\Уроки\5-семестр\Методы оптимизации\OptimizationMethodsPrograms\ESM\ESM\bin\Debug\ESM.pdb
+E:\Уроки\5-семестр\Методы оптимизации\OptimizationMethodsPrograms\ESM\ESM\bin\Debug\ESM.xml
+E:\Уроки\5-семестр\Методы оптимизации\OptimizationMethodsPrograms\ESM\ESM\bin\Debug\info.lundin.math.dll
+E:\Уроки\5-семестр\Методы оптимизации\OptimizationMethodsPrograms\ESM\ESM\obj\Debug\ESM.vbprojResolveAssemblyReference.cache
+E:\Уроки\5-семестр\Методы оптимизации\OptimizationMethodsPrograms\ESM\ESM\obj\Debug\ESM.EvenForm.resources
+E:\Уроки\5-семестр\Методы оптимизации\OptimizationMethodsPrograms\ESM\ESM\obj\Debug\ESM.Resources.resources
+E:\Уроки\5-семестр\Методы оптимизации\OptimizationMethodsPrograms\ESM\ESM\obj\Debug\ESM.vbproj.GenerateResource.Cache
+E:\Уроки\5-семестр\Методы оптимизации\OptimizationMethodsPrograms\ESM\ESM\obj\Debug\ESM.vbproj.CoreCompileInputs.cache
+E:\Уроки\5-семестр\Методы оптимизации\OptimizationMethodsPrograms\ESM\ESM\obj\Debug\ESM.exe
+E:\Уроки\5-семестр\Методы оптимизации\OptimizationMethodsPrograms\ESM\ESM\obj\Debug\ESM.xml
+E:\Уроки\5-семестр\Методы оптимизации\OptimizationMethodsPrograms\ESM\ESM\obj\Debug\ESM.pdb
