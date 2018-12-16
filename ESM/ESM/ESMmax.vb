@@ -60,7 +60,9 @@ Imports System.Threading
                     k_max = k_max + k_max
                     k_maxBox.Text = k_max
                 Else
-                    cond = 1
+                    CondK_Max = 1
+                    Label4.Text = "Attention: It isn't possible to find a solution with the given Tolerance = " _
+                        & Tolerance & vbCrLf & "and for a given Number Of Iterations =" & k_max
                 End If
             End If
             If YF1 <= YF0 Then
@@ -87,9 +89,6 @@ Imports System.Threading
             'MsgBox(x0 & " " & x1)
         Loop While CondK_Max = 0 And cond = 0 And Math.Abs(x1 - x0) >= Tolerance
 
-        If CondK_Max = 1 Then
-            Label4.Text = "Attention: It isn't possible to find a solution with the given Tolerance = " & Tolerance & vbCrLf & "and for a given Number Of Iterations =" & k_max
-        End If
         ProgressBar1.Visible = False
         SolutionOfTask = x1
         ValueOfFunction = YF1

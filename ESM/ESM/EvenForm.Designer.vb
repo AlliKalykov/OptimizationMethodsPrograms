@@ -63,6 +63,7 @@ Partial Class EvenForm
         Me.CondBox.ScrollBars = System.Windows.Forms.ScrollBars.Horizontal
         Me.CondBox.Size = New System.Drawing.Size(117, 20)
         Me.CondBox.TabIndex = 147
+        Me.CondBox.Text = "Condition"
         '
         'CondLabel
         '
