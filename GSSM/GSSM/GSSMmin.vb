@@ -24,7 +24,7 @@ Public Class GSSMmin
         Return Parser.Parse(func)
     End Function
 
-    Public Sub start(funcBox As TextBox, LeftEndPointBox As TextBox,
+    Public Sub start(funcBox As ComboBox, LeftEndPointBox As TextBox,
                          RightEndPointBox As TextBox,
                          ToleranceBox As TextBox, k_maxBox As TextBox,
                          ByRef ProgressBar1 As ProgressBar, ByRef Label4 As Label)

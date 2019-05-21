@@ -165,9 +165,11 @@ Partial Class EvenForm
         'Label4
         '
         Me.Label4.AutoSize = True
-        Me.Label4.Location = New System.Drawing.Point(19, 341)
+        Me.Label4.BackColor = System.Drawing.SystemColors.ActiveCaption
+        Me.Label4.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D
+        Me.Label4.Location = New System.Drawing.Point(10, 332)
         Me.Label4.Name = "Label4"
-        Me.Label4.Size = New System.Drawing.Size(35, 13)
+        Me.Label4.Size = New System.Drawing.Size(37, 15)
         Me.Label4.TabIndex = 135
         Me.Label4.Text = "empty"
         '
@@ -192,7 +194,7 @@ Partial Class EvenForm
         '
         'ButtonClearOutPut
         '
-        Me.ButtonClearOutPut.Location = New System.Drawing.Point(361, 368)
+        Me.ButtonClearOutPut.Location = New System.Drawing.Point(373, 368)
         Me.ButtonClearOutPut.Name = "ButtonClearOutPut"
         Me.ButtonClearOutPut.Size = New System.Drawing.Size(76, 30)
         Me.ButtonClearOutPut.TabIndex = 132
@@ -336,7 +338,7 @@ Partial Class EvenForm
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(506, 410)
+        Me.ClientSize = New System.Drawing.Size(506, 433)
         Me.Controls.Add(Me.CondBox)
         Me.Controls.Add(Me.CondLabel)
         Me.Controls.Add(Me.Label6)

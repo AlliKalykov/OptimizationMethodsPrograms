@@ -24,13 +24,12 @@ Public Class GSSMmax
         Return Parser.Parse(func)
     End Function
 
-    Public Sub start(funcBox As TextBox, LeftEndPointBox As TextBox,
+    Public Sub start(funcBox As ComboBox, LeftEndPointBox As TextBox,
                          RightEndPointBox As TextBox,
                          ToleranceBox As TextBox, k_maxBox As TextBox,
                          ByRef ProgressBar1 As ProgressBar, ByRef Label4 As Label)
         Dim Tolerance As Double
         Dim a, b As Decimal
-        Dim mid As Decimal
         Dim x1, x2 As Decimal
         Dim YF1, YF2 As Decimal
         Dim k_max As Integer
@@ -85,7 +84,7 @@ Public Class GSSMmax
             ProgressBar1.Maximum = k + 0.00000001
             ProgressBar1.Value = k
             Thread.Sleep(0)
-        Loop While CondK_Max = 0 And FinalInaccuracy >= CDec(Tolerance)
+        Loop While CondK_Max = 0 And FinalInaccuracy > CDec(Tolerance)
 
         If FinalInaccuracy < CDec(Tolerance) Then
             Label4.Text = "Answer: The maximum point of extremum find with the given Tolerance = " & Tolerance

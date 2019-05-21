@@ -47,6 +47,9 @@
     <OptionInfer>On</OptionInfer>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="byMarc.Net2.Library.Strings, Version=1.0.0.0, Culture=neutral, PublicKeyToken=5ee42ada736ab19b, processorArchitecture=MSIL">
+      <HintPath>..\packages\byMarc.Net2.Library.Strings.2017.306.1\lib\net20\byMarc.Net2.Library.Strings.dll</HintPath>
+    </Reference>
     <Reference Include="info.lundin.math, Version=1.2.5.0, Culture=neutral, PublicKeyToken=2f7fe9ec5efab85f, processorArchitecture=MSIL">
       <HintPath>..\packages\info.lundin.math.dll.1.2.5\lib\net40\info.lundin.math.dll</HintPath>
     </Reference>

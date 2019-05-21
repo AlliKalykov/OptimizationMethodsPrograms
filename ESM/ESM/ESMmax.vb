@@ -68,10 +68,12 @@ Imports System.Threading
             If YF1 <= YF0 Then
                 If k = 1 Then
                     cond = 1
-                    Label4.Text = "Attention: It means that ESM can't find  an extremum or Initial" _
-                    & vbCrLf & "point Is x0 may be a solution Or may be the Initial point Is placed in the" _
-                    & vbCrLf & "right-of-solution x* Is a forbidden arca." _
-                    & vbCrLf & "Try to revise Initial point to check validity of the value 0."
+                    Label4.Text = "Attention:Try to revise Initial point to check validity of the value, because" _
+                        & vbCrLf & "1)Initial point Is x0 may be a solution for a given Tolerence = " & Tolerance _
+                        & vbCrLf & "  You can reduce the Tolerance to check it." _
+                        & vbCrLf & "2)The extremum point can be located to the left of the given Initial point = " & InitialPointBox.Text() _
+                        & vbCrLf & "  You can increase the Initial point to check it." _
+                        & vbCrLf & "3)Probably, It means that ESM can't find  an extremum "
                 End If
                 x1 = x0
                 YF1 = YF0

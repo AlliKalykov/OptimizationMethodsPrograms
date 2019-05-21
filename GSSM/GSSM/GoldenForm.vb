@@ -77,14 +77,48 @@ Public Class GoldenForm
         Dim worksheet As Worksheet
         Dim func As String
         Const ex As String = "MO_LookingForOneOptPoint_02.04.2012.xls"
-        func = funcBox.Text.Replace("x", "D4")
+        func = funcBox.Text()
+
+        '*************All "х" replace in "D4 for Excel
+        Dim funcLength As Integer = func.Length()
+        If func(0) = "x" Then
+            If Char.IsLetter(func(1)) = False Then
+                func = "D4" & Mid(func, 2, funcLength - 1)
+                funcLength += 1
+            End If
+        End If
+
+        If func(funcLength - 1) = "x" Then
+            If Char.IsLetter(func(funcLength - 2)) = False Then
+                func = Mid(func, 1, funcLength - 1) & "D4"
+                funcLength += 1
+            End If
+        End If
+
+        For i As Integer = 1 To funcLength - 1
+            If func(i) = "x" Then
+                If Char.IsLetter(func(i - 1)) = False And Char.IsLetter(func(i + 1)) = False Then
+                    func = Mid(func, 1, i) & "D4" & Mid(func, i + 2, funcLength - i)
+                End If
+            End If
+        Next
+        '**************Ending replace
+
         Dim app As New excel.Application()
         workbook = app.Workbooks.Open(Path.Combine(Environment.CurrentDirectory, ex))
-        worksheet = TryCast(Workbook.ActiveSheet, Worksheet)
+        worksheet = TryCast(workbook.ActiveSheet, Worksheet)
         worksheet.Cells(4, 9) = LeftEndPointBox.Text
         worksheet.Cells(4, 10) = RightEndPointBox.Text
         worksheet.Range("E4").Value = "=" + func
         app.Visible = True
         TopMost = True
+    End Sub
+
+    Private Sub OpenExcel_Hover(sender As Object, e As EventArgs) Handles OpenExcel.MouseHover
+        Dim toolTip1 As New ToolTip()
+
+        toolTip1.ShowAlways = True
+
+        toolTip1.SetToolTip(OpenExcel, "Открыть Excel файл, чтобы увидеть график функции на отрезке [" & LeftEndPointBox.Text() & ";" & RightEndPointBox.Text() & "]")
     End Sub
 End Class

@@ -22,7 +22,6 @@ Partial Class GoldenForm
     'Не изменяйте ее в редакторе исходного кода.
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
-        Me.funcBox = New System.Windows.Forms.TextBox()
         Me.Label2 = New System.Windows.Forms.Label()
         Me.Label4 = New System.Windows.Forms.Label()
         Me.elapsedTime = New System.Windows.Forms.TextBox()
@@ -53,16 +52,9 @@ Partial Class GoldenForm
         Me.maxRadioButton = New System.Windows.Forms.RadioButton()
         Me.ButtonExit = New System.Windows.Forms.Button()
         Me.OpenExcel = New System.Windows.Forms.Button()
+        Me.funcBox = New System.Windows.Forms.ComboBox()
         Me.Panel1.SuspendLayout()
         Me.SuspendLayout()
-        '
-        'funcBox
-        '
-        Me.funcBox.Location = New System.Drawing.Point(26, 29)
-        Me.funcBox.Name = "funcBox"
-        Me.funcBox.Size = New System.Drawing.Size(276, 20)
-        Me.funcBox.TabIndex = 100
-        Me.funcBox.Text = "x^2-4*sin(x)"
         '
         'Label2
         '
@@ -339,15 +331,25 @@ Partial Class GoldenForm
         Me.OpenExcel.Text = "Open Excel"
         Me.OpenExcel.UseVisualStyleBackColor = True
         '
+        'funcBox
+        '
+        Me.funcBox.FormattingEnabled = True
+        Me.funcBox.Items.AddRange(New Object() {"x^2-4*sin(x)", "x^3-5*x^2+x+5"})
+        Me.funcBox.Location = New System.Drawing.Point(26, 34)
+        Me.funcBox.Name = "funcBox"
+        Me.funcBox.Size = New System.Drawing.Size(224, 21)
+        Me.funcBox.TabIndex = 115
+        Me.funcBox.Text = "x^2-4*sin(x)"
+        '
         'GoldenForm
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(631, 275)
+        Me.Controls.Add(Me.funcBox)
         Me.Controls.Add(Me.OpenExcel)
         Me.Controls.Add(Me.ButtonExit)
         Me.Controls.Add(Me.Panel1)
-        Me.Controls.Add(Me.funcBox)
         Me.Controls.Add(Me.Label2)
         Me.Controls.Add(Me.Label4)
         Me.Controls.Add(Me.elapsedTime)
@@ -380,8 +382,6 @@ Partial Class GoldenForm
         Me.PerformLayout()
 
     End Sub
-
-    Friend WithEvents funcBox As TextBox
     Friend WithEvents Label2 As Label
     Friend WithEvents Label4 As Label
     Friend WithEvents elapsedTime As TextBox
@@ -412,4 +412,5 @@ Partial Class GoldenForm
     Friend WithEvents maxRadioButton As RadioButton
     Friend WithEvents ButtonExit As Button
     Friend WithEvents OpenExcel As Button
+    Friend WithEvents funcBox As ComboBox
 End Class
